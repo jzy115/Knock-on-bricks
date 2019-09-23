@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: black;
+}
+
+#back {
+	position: fixed;
+	left: 250px;
+	top: 10px;
+	width: 1400px;
+	height: 900px;
+	background: url("images/1.jpg") no-repeat;
+	background-size: cover;
+
+}
+
+#wrapper {
+	position: fixed;
+	left: 300px;
+	top: 50px;
+	background-color: white;
+}
+
+#score {
+	position: absolute;
+	left: 310px;
+	top: 50px;
+	color: darkslategray;
+	font-size: 30px;
+}
+
+canvas {
+	border: 2px solid white;
+}
+
+#img1 {
+	position: absolute;
+	left: 300px;
+	top: 80px;
+}
+
+#img2 {
+	position: absolute;
+	left: 550px;
+	top: 350px;
+	width: 300px;
+}
+
+#img3 {
+	position: absolute;
+	left: 350px;
+	top: 80px;
+}
+
+#img4 {
+	position: absolute;
+	left: 550px;
+	top: 600px;
+	width: 300px;
+}
+#img5 {
+	position: absolute;
+	left: 200px;
+	top: 750px;
+	width: 1000px;
+}
+
+@keyframes back {
+	0% {
+		transform: scale(1)
+	}
+
+	50% {
+		transform: scale(1.2)
+	}
+
+	100% {
+		transform: scale(1)
+	}
+}

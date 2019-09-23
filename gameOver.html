@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css1.css"/>
+</head>
+<body>
+	<div id="back">
+		<img id="img3" src="images/gameover.png" >
+		<a href="index.html"><img id="img4" src="images/restart.png" alt=""></a>
+	</div>
+    <script>
+		var imgs = document.getElementsByTagName('img');
+		imgs[0].style.animation = 'back 2s both 2';
+		imgs[1].style.animation = 'back 2s 4s both infinite';
+    </script>
+</body>
+</html>

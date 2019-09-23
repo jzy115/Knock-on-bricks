@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css1.css"/>
+</head>
+<body onload="onLoad()">
+	<div id="back"></div>
+    <div id="wrapper">
+        <canvas id="cvs" width="1300px" height="800px"></canvas>
+    </div>
+    <div id="score">得分：0</div>
+    <script>
+        var cvs =document.getElementById('cvs');
+        var ctx = cvs.getContext('2d');
+        var div = document.getElementById('score');
+        var gGame = null;
+        var num = null;
+        var barWidth = 150;
+        var barHeight = 10;
+        var speed = 10;
+        var map = 0;
+        var score = 0;
+        var num2 = null;
+        var over= 0;
+    </script>
+    <script src="game.js"></script>
+    <script src="createMap.js"></script>
+</body>
+</html>
